@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    position: relative;
+    background: #970d0d;
+}
+.main-container{
+    position: absolute;
+    width: 1510px;
+    height: 1017px;
+    background: #1e1e1e;
+    margin: 100px 0px;
+    justify-content: center;
+    align-content: center;
+    
+    
+}
+.sidebar{
+    position: absolute;
+    width: 300px;
+    height: 975px;
+    top: 19px;
+    left: 21px;
+    border-radius: 40px;
+    background: #262626;
+}
+.profile-pic{
+    position: absolute;
+    box-sizing: border-box;
+    width: 222px;
+    height: 222px;
+    top: 37px;
+    left: 36.5px;
+    background:url(./images/ironman.jpg);
+    border: 2px solid #111111;
+    border-radius: 1000px;
+}
+.sidebar h1{
+    position: absolute;
+    width: 132px;
+    height: 36px;
+    top: 282px;
+    left: 84px;
+    color: #FFFFFF;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+}
+.sidebar h2{
+    position: absolute;
+    width: 87px;
+    height: 27px;
+    top: 326px;
+    left: 106.5px;
+    color: rgba(255, 255, 255, 0.5);
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+}
+.connect-with-tony{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width:250px;
+    height: 55px;
+    top: 395px;
+    left: 25px;
+    margin-bottom: 23px;
+    border-radius: 30px;
+    background: #111111;
+    align-items: center;
+    justify-content: center;
+    color: rgba(255, 255, 255, 0.5);
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+}
+.container-one{
+    position: absolute;
+    box-sizing: border-box;
+    width: 1135px;
+    height: 510px;
+    top: 19px;
+    left: 342px;
+    border-radius: 50px;
+    background: #262626;
+}
+.container-one h1{
+    position: absolute;
+    width: 231px;
+    height: 36px;
+    top: 40px;
+    left: 30px;
+    color: #FFFFFF;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+}
+.container-one .first-para{
+    position: absolute;
+    width: 427px;
+    height: 324px;
+    top: 105px;
+    left: 30px;
+    color: rgba(255, 255, 255, 0.5);
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+}
+.container-one .para-image{
+    position: absolute;
+    width: 620px;
+    height: 375px;
+    top: 105px;
+    left: 480px;
+    background: url(./images/img2.jpg) ;
+    background-size:  cover ;
+    border-radius: 20px;
+}
+.container-two{
+    position: absolute;
+    box-sizing: border-box;
+    width: 1135px;
+    height: 445px;
+    top: 551px;
+    left: 342px;
+    
+    border-radius: 50px;
+    background: #262626;
+}
+.container-two h2{
+    position: absolute;
+    width: 231px;
+    height: 36px;
+    top: 40px;
+    left: 30px;
+    color: #FFFFFF;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+}
+.data-table tr{
+    position:absolute;
+    width: 1070px;
+    height: 320px;
+    top: 96px;
+    left: 30px;
+    color:rgba(255, 255, 255, 0.5) ;
+    border: 2px solid #111111;
+    border-radius: 30px;
+    text-align: center;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;  
+}
